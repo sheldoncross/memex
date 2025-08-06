@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: Memex API
+  description: API for the Memex application.
+  version: 0.1.0
+paths:
+  /api/v1/nodes:
+    post:
+      summary: Ingest a new note
+      description: Creates a new node in the memex.
+      responses:
+        '201':
+          description: Successfully created a new node.

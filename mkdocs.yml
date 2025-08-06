@@ -1,4 +1,5 @@
 site_name: Memex
+repo_url: https://github.com/sheldoncross/memex
 nav:
   - Home: index.md
   - Architecture: architectural-outline.md
