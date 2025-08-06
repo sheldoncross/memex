@@ -437,7 +437,7 @@
 
 
 <h1 id="memex-project-next-steps">Memex Project: Next Steps</h1>
-<p>This document outlines a phased development plan to build the Memex application as envisioned in the <a href="docs/architectural-outline.md">architectural-outline.md</a>. The project currently consists of a new React Native application, and the following steps will guide the implementation of the backend services and the connection between the frontend and backend.</p>
+<p>This document outlines a phased development plan to build the Memex application as envisioned in the <a href="../architectural-outline/">architectural-outline.md</a>. The project currently consists of a new React Native application, and the following steps will guide the implementation of the backend services and the connection between the frontend and backend.</p>
 <hr />
 <h3 id="phase-1-foundational-setup-core-backend"><strong>Phase 1: Foundational Setup &amp; Core Backend</strong></h3>
 <p><strong>Goal:</strong> Establish the project structure, set up the development environment, and build the initial version of the Go backend service.</p>
@@ -485,22 +485,18 @@
 <p><strong>Build the Data Ingestion Endpoint:</strong></p>
 <ul>
 <li>Implement the logic for the <code>POST /api/v1/nodes</code> endpoint in the Go backend.</li>
-<li>The handler should:<ol>
+<li>The handler should:</li>
 <li>Receive text content from the request body.</li>
 <li>Call the LLM service to generate a vector embedding for the text.</li>
 <li>Call the database service to store the original text and its corresponding vector.</li>
-</ol>
-</li>
 </ul>
 </li>
 <li>
 <p><strong>Develop UI for Note Creation:</strong></p>
 <ul>
-<li>In the React Native application (<code>App.tsx</code> to start), create a simple UI with:<ul>
+<li>In the React Native application (<code>App.tsx</code> to start), create a simple UI with:</li>
 <li>A <code>TextInput</code> for writing a new note.</li>
 <li>A "Save" <code>Button</code>.</li>
-</ul>
-</li>
 </ul>
 </li>
 <li>
