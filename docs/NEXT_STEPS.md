@@ -14,7 +14,7 @@ This document outlines a phased development plan to build the Memex application 
 
 2.  **Define Core API Contract:**
     - Start with a simple REST API for the first features. Define an OpenAPI (Swagger) specification for the initial endpoints.
-    - **Key initial endpoint:** `POST /api/v1/nodes` for ingesting new notes.
+    - **Key initial endpoint:** `POST /api/v1/nodes` for ingesting new nodes.
 
 3.  **Implement Backend Server & LLM Service Wrapper:**
     - In the `backend/` directory, set up a basic HTTP server using a standard library or a lightweight framework like Gin.
