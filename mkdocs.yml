@@ -4,5 +4,9 @@ nav:
   - Home: index.md
   - Architecture: architectural-outline.md
   - Next Steps: NEXT_STEPS.md
+  - API: api.md
 theme:
   name: material
+plugins:
+  - search
+  - render_swagger
