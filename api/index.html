@@ -405,7 +405,16 @@
 <h1 id="api-reference">API Reference</h1>
 <p>Below is the interactive API documentation for the Memex backend. This documentation is generated from the <a href="../swagger.yml">swagger.yml</a> file.</p>
 <h2 id="openapi-specification">OpenAPI Specification</h2>
-<p>!! SWAGGER ERROR: Arbitrary locations are not allowed due to RFI/LFI security risks. Please enable the 'allow_arbitrary_locations' configuration option to allow this. !!</p>
+<p><link type="text/css" rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5/swagger-ui.css"></p>
+<div id="swagger-ui-1">
+</div>
+<script src="https://unpkg.com/swagger-ui-dist@5/swagger-ui-bundle.js" charset="UTF-8"></script>
+<script>
+    SwaggerUIBundle({
+      url: 'swagger.yml',
+      dom_id: '#swagger-ui-1',
+    })
+</script>
 
 
 
