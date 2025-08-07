@@ -8,7 +8,7 @@
   "paths": {
     "/api/v1/nodes": {
       "post": {
-        "summary": "Ingest a new note",
+        "summary": "Ingest a new node",
         "description": "Creates a new node in the memex.",
         "responses": {
           "201": { "description": "Successfully created a new node." }
