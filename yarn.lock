@@ -7714,12 +7714,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.536.0":
-  version: 0.536.0
-  resolution: "lucide-react@npm:0.536.0"
+"lucide-react@npm:^0.541.0":
+  version: 0.541.0
+  resolution: "lucide-react@npm:0.541.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/643d6960630c5e8678c8140ccb60710b019a385c847f4ad089b2598ae3321f80ddc7f73c2b3a648576674c3e475a6effa2fc58665da9c07e568a010e677cab42
+  checksum: 10c0/ffa23a9c9ead0832c7e0bb1eb7ed44e9f38bbf083d94b4d36a66eb23fa2099d4a52e1677c91eb7e8ea922621fa98e730f5d513bc56b3111b14b835bd8ab823ab
   languageName: node
   linkType: hard
 
@@ -7846,7 +7846,7 @@ __metadata:
     eslint-plugin-jest: "npm:^29.0.1"
     eslint-plugin-prettier: "npm:^5.5.4"
     jest: "npm:^29.6.3"
-    lucide-react: "npm:^0.536.0"
+    lucide-react: "npm:^0.541.0"
     lucide-react-native: "npm:^0.536.0"
     prettier: "npm:^3.1.0"
     prettier-eslint: "npm:^16.1.2"
